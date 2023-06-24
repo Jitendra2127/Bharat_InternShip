@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap');
+*{
+   
+    margin: 0px 30px 10px 30px;
+}
+body{
+    background-color: black;
+}
+
+.nav_bar{
+    display: flex;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.left_container h1{
+
+    font-family: 'Tilt Prism', cursive;
+    font-size: 50px;
+    color: red;
+}
+.right_container{
+    display: flex;
+    
+    align-items: center;
+    margin-left: 800px;
+}
+.right_container button{
+    height: 30px;
+    width: 70px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.english{
+    color: red;
+    font-weight: bold;
+    /* background-color:; */
+    cursor: pointer;
+}
+.sign{
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+/* ///////////////////////Second_conatiner/////////// */
+
+
+.second_container{
+    color:white;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35vh;
+    font-size: 30px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3vh;
+}
+
+.search input{
+    width: 30%;
+    height: 30px;
+    font-size: 15px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.search button{
+    border-radius: 5px;
+    height: 35px;
+    width: 7%;
+    background-color: red;
+    border-style: none;
+    margin-left: -30px;
+    cursor: pointer;
+
+}
+
+
+/* ///////////// first_slide */
+
+.first_slide{
+   margin-top: 60px;
+   display: flex;
+}
+
+.left{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+
+
+.second_slide{
+    margin-top: 60px;
+    display: flex;
+ }
+ 
+.second_right{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.third_slide{
+    margin-top: 60px;
+    display: flex;
+ }
+ 
+.third_left{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.membership{
+    margin-top: 7vh;
+}
+
+.membership input{
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.membership span{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.question{
+    margin-top: 10vh;
+}
+
+.question span{
+    color:white;
+    display: flex;
+    justify-content:left;
+
+}
+
+
+.ul_items{
+    display:flex;
+    color: white;
+    margin-left: -70px;
+    font-style: italic;
+
+
+}
+ul{
+    list-style:none;
+}
+
+
+.last_part_footer{
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    font-style: italic;
+}
+
+
